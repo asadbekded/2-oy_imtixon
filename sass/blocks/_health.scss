@@ -61,7 +61,7 @@
    background-color: #FEFEFE;
 }
 .cap-box{
-   width: 270px;
+   // width: 270px;
 }
 .cap-title{
    margin-top: 29px;
@@ -74,6 +74,10 @@
 }
 .cap-time{
    margin-left: 0px;
+}
+.cup-link__box{
+   display: flex;
+   align-items: center;
 }
 .cap-link{
    color: #3D9CEA;

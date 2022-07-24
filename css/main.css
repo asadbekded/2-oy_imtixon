@@ -1210,10 +1210,6 @@ main {
   background-color: #FEFEFE;
 }
 
-.cap-box {
-  width: 270px;
-}
-
 .cap-title {
   margin-top: 29px;
 }
@@ -1232,6 +1228,15 @@ main {
 
 .cap-time {
   margin-left: 0px;
+}
+
+.cup-link__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .cap-link {
@@ -1357,7 +1362,7 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 90px;
+  margin-left: 110px;
 }
 
 .footer-logo {
@@ -1436,6 +1441,7 @@ footer {
 .footer-list {
   margin: 0;
   padding: 0;
+  margin-left: 50px;
 }
 
 .footer-item {
