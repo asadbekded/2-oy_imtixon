@@ -1,0 +1,76 @@
+.fish-content{
+   display: flex;
+   align-items: center;
+   margin-bottom: 240px;
+   background-image: url("../images/feedback-bckg.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #333333;
+}
+.lupa-content{
+   width: 334px;
+}
+.fish-box{
+   position: relative;
+   margin-left: 105px;
+
+   &::before{
+      position: absolute;
+      width: 411px;
+      height: 411px;
+      background-image: url("../images/fish.fish1.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: 30px;
+      right: -400px;
+      content: '';
+   }
+}
+.fish-title{
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 62px;
+   color: #FFFFFF;
+   margin: 0px;
+   margin-bottom: 14px;
+}
+.fish-text{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #949494;
+   margin: 0px;
+   margin-bottom: 29px;
+}
+.fish-input{
+   width: 375px;
+   padding: 15px 0px 14px 22px;
+   display: block;
+   margin-bottom: 14px;
+   border: 0px;
+}
+.fish-textarea{
+   display: block;
+   width: 375px;
+   border: 0px;
+   resize: vertical;
+   margin-bottom: 30px;
+}
+.fish-btn{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FFFFFF;
+   padding: 15px 30px 15px 30px;
+   margin-right: 21px;
+   background-color: #FFBD54;
+   border: 0px;
+
+   &:hover{
+      color: #FFBD54;
+      background-color: #333333;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+}

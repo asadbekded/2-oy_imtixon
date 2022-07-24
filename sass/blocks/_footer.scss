@@ -1,0 +1,87 @@
+footer{
+   background-color: #F3F3F3;
+}
+.footer-content{
+   position: relative;
+   padding: 62px 0px 69px 0px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   margin-left: 90px;
+}
+
+.footer-logo{
+   position: absolute;
+   width: 178px;
+   height: 88px;
+   top: 25px;
+   z-index: 1;
+   left: -110px;
+}
+.footer-tell{
+   display: block;
+}
+.footer-link{
+   display: block;
+}
+.footer-link + .footer-link{
+   margin-left: 0px;
+   &::before{
+      display: none;
+   }
+}
+
+.footer-addres{
+   width: 157px;
+}
+
+.footer-box__link{
+   position: relative;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #333333;
+   
+   &::before{
+      position: absolute;
+      width: 14px;
+      height: 13px;
+      background-image: url("../images/house-1.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      top: 1px;
+      left: -19px;
+      content: '';
+   }
+}
+
+.footer-time{
+   width: 120px;
+}
+.diaz-spn{
+   margin-left: 0px;
+}
+
+.footer-time{
+   position: relative;
+   &::before{
+      position: absolute;
+      width: 14px;
+      height: 15px;
+      background-image: url("../images/kalendar.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      top: 1px;
+      left: -20px;
+      content: '';
+   }
+}
+
+.footer-list{
+   margin: 0;
+   padding: 0;
+}
+.footer-item{
+   margin-bottom: 14px;
+   margin-left: 0px;
+}

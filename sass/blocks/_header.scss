@@ -1,0 +1,177 @@
+.header-top{
+   padding: 13px 0px;
+   background-color: #F9F8F8;
+}
+.header-top__content{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.home-box__link{
+   position: relative;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #333333;
+   
+   &::before{
+      position: absolute;
+      width: 14px;
+      height: 13px;
+      background-image: url("../images/house-1.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: 4px;
+      left: -19px;
+      content: '';
+   }
+}
+
+.tell-box__link{
+   position: relative;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #333333;
+   &::before{
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      background-image: url("../images/phone-1.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: 4px;
+      left: -20px;
+      content: '';
+   }
+   
+   &:hover{
+      color: #FFBD54;
+   }
+   &:active{
+      color: #333333;
+      opacity: 0.6;
+   }
+}
+.tell-box__link + .tell-box__link{
+   margin-left: 22px;
+   &::before{
+      width: 4px;
+      height: 4px;
+      background-image: url("../images/header.bfr.svg");
+      bottom: 35%;
+      left: -15px;
+   }
+}
+.time-box{
+   position: relative;
+   &::before{
+      position: absolute;
+      width: 14px;
+      height: 15px;
+      background-image: url("../images/kalendar.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: 3px;
+      left: -17px;
+      content: '';
+   }
+}
+.time-box__spn{
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #333333;
+   margin-left: 17px;
+}
+.time-box__spn:nth-child(1){
+   margin-left: 0;
+}
+.time-box__dt{
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #333333;
+}
+
+// header top qismi tugadi
+.header-content{
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 0px;
+}
+.logo{
+   position: absolute;
+   width: 178px;
+   height: 88px;
+   top: -9px;
+   z-index: 1;
+   left: -90px;
+}
+.header-inner{
+   background-color: #FFFFFF;
+}
+.nav-list{
+   position: relative;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   margin-left: 130px;
+   &::before{
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background-image: url("../images/header.fish.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: 3px;
+      left: -24px;
+      content: '';
+   }
+}
+.nav-link{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #333333;
+   &:hover{
+      border-bottom: 3px solid #fffb15;
+   }
+   &:active{
+      border-bottom: 3px solid #fffb15;
+      opacity: 0.6;
+   }
+}
+.nav-item + .nav-item{
+   margin-left: 55px;
+}
+.header-btn{
+   position: relative;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #333333;
+   background-color: transparent;
+   border: 0px;
+   &::before{
+      position: absolute;
+      width: 23px;
+      height: 21px;
+      background-image: url("../images/pet.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: 3px;
+      left: -20px;
+      content: '';
+   }
+}
+
+.logo:hover{
+   opacity: 0.8;
+}
+
+.logo:active{
+   opacity: 0.6;
+}

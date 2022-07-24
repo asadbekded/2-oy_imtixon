@@ -1,0 +1,218 @@
+.just-content{
+   padding: 20px 0px 200px 0px;
+}
+.just-title{
+   text-align: center;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 112%;
+   color: #333333;
+}
+.doctor-list{
+   position: relative;
+   margin: 0;
+   margin-top: 80px;
+   padding: 0;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+
+   &::before{
+      position: absolute;
+      width: 15px;
+      height: 26px;
+      background-image: url("../images/btn.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      top: 110px;
+      left: -40px;
+      content: '';
+   }
+
+   &::after{
+      position: absolute;
+      width: 15px;
+      height: 26px;
+      background-image: url("../images/btn.2.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      top: 110px;
+      right: -40px;
+      content: '';
+   }
+}
+
+
+.doctor-item{
+   position: relative;
+   text-align: center;
+   padding: 130px 33px 32px 33px;
+   width: 100%;
+   max-width: 193px;
+   background-color: #FFFFFF;
+   border-radius: 5px 5px 0px 0px;
+   
+   &::before{
+      position: absolute;
+      width: 54px;
+      height: 78px;
+      background-image: url("../images/doctor 1.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center center;
+      top: 30px;
+      left: 0px;
+      right: 0px;
+      margin: 0px auto;
+      content: '';
+   }
+
+   &:hover{
+      opacity: 0.6;
+   }
+   &:active{
+      opacity: 0.4;
+   }
+}
+
+.doctor-item:nth-child(1){
+   padding: 140px 33px 42px 45px;  
+}
+.doctor-item:nth-child(2){
+   &::before{
+      background-image: url("../images/just.girl.svg");
+   }
+}
+
+.doctor-item:nth-child(3){
+   &::before{
+      background-image: url("../images/just.3.svg");
+   }
+}
+.doctor-item:nth-child(4){
+   padding-top: 150px;
+   
+   &::before{
+      background-image: url("../images/just.4.svg");
+   }
+}
+
+.doctor-item:nth-child(5){
+   &::before{
+      background-image: url("../images/just.5.svg");
+   }
+}
+
+.doctor-item:nth-child(6){
+   padding-top: 150px;
+   
+   &::before{
+      background-image: url("../images/just.6.svg");
+   }
+}
+.doctor-title{
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 122%;
+   text-align: center;
+   color: #333333;
+}
+
+.first-content{
+   margin-top: 0px;
+   padding: 41px 100px 41px 25px;
+   background-color: #FFFFFF;
+   border-radius: 0px 5px 5px 5px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.first-box{
+   width: 100%;
+   max-width: 492px;
+}
+.first-title{
+   margin: 0px;
+   margin-bottom: 18px;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 56%;
+   color: #333333;
+}
+.first-text{
+   margin: 0px;
+   margin-bottom: 8px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 125%;
+   color: #949494;
+}
+
+.money-box{
+   margin-top: 40px;
+}
+
+.money-link{
+   position: relative;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FFFFFF;
+   padding: 15px 25px 15px 45px;
+   margin-right: 21px;
+   background-color: #FFBD54;
+   border-radius: 3px;
+
+   &::before{
+      position: absolute;
+      width: 22px;
+      height: 21px;
+      background-image: url("../images/money 1.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center center;
+      top: 15px;
+      left: 17px;
+      content: '';
+   }
+   &:hover{
+      color: #FFBD54;
+      background-color: #333333;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+}
+
+.first-link{
+   position: relative;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FFFFFF;
+   padding: 15px 25px 15px 40px;
+   margin-right: 21px;
+   background-color: #333;
+   border-radius: 3px;
+
+   &::before{
+      position: absolute;
+      width: 22px;
+      height: 21px;
+      background-image: url("../images/document 1.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center center;
+      top: 15px;
+      left: 14px;
+      content: '';
+   }
+   &:hover{
+      background-color: #FFBD54;
+      color: #333;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+}
+

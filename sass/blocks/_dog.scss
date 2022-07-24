@@ -1,0 +1,51 @@
+.dog-section{
+   background-color: #78C0DE;
+   border-radius: 5px;
+}
+.dog-content{
+   background-image: url("../images/Mask Group.png");
+   background-repeat: no-repeat;
+   padding: 90px 0px 88px 0px;
+   margin-bottom: 50px;
+}
+.dog-box{
+   position: relative;
+   margin-left: 170px;
+
+   &::before{
+      position: absolute;
+      width: 613px;
+      height: 481px;
+      background-image: url("../images/dog.3.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: -153px;
+      right: -70px;
+      content: '';
+   }
+}
+.dog-title{
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 20px;
+   color: #FFFFFF;
+   margin: 0;
+   margin-bottom: 32px;
+}
+.dog-input{
+   border: none;
+   width: 335px;
+   padding: 15px 0px 15px 22px;
+   border-radius: 5px;
+}
+.dog-btn{
+   padding: 15px 30px;
+   border: 0px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FFFFFF;
+   background-color: #333333;
+   border-radius: 3px;
+   margin-left: 21px;
+}

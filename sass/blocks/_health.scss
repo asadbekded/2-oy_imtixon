@@ -1,0 +1,95 @@
+.health-content{
+   padding: 150px 0px 265px 0px;
+}
+.health-title{
+   text-align: center;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 20px;
+   color: #333333;
+   margin-bottom: 80px;
+}
+.health-list{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.health-item{
+   width: 100%;
+   max-width: 305px;
+   background-color: #FEFEFE;
+}
+.health-box{
+   padding: 21px 22px 37px 30px;
+}
+.health-time{
+   display: inline-block;
+   margin-left: 170px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #949494;
+}
+.title-box{
+   width: 244px;
+}
+.read-title{
+   width: 182px;
+   margin: 0;
+   margin-bottom: 10px;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 25px;
+   color: #000000;
+}
+.read-text{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #949494;
+   margin: 0px;
+   margin-bottom: 35px;
+}
+
+.hero-item{
+   width: 100%;
+   max-width: 640px;
+   display: flex;
+   align-items: center;
+   background-color: #FEFEFE;
+}
+.cap-box{
+   width: 270px;
+}
+.cap-title{
+   margin-top: 29px;
+}
+
+.cap-content{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.cap-time{
+   margin-left: 0px;
+}
+.cap-link{
+   color: #3D9CEA;
+}
+
+.cap-link + .cap-link{
+   margin-left: 8px;
+}
+
+.hero-btn{
+   &:hover{
+      color: #FFBD54;
+   }
+
+   &:active{
+      color: #333333;
+      opacity: 0.6;
+   }
+}

@@ -1,0 +1,80 @@
+main{
+   background-image: url("../images/bg.png");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-color: #F9F8F8;
+}
+
+.bird-content{
+   position: relative;
+   width: 100%;
+   max-width: 608px;
+   padding: 153px 0px;
+   margin-left: auto;
+
+   &::before{
+      position: absolute;
+      width: 319px;
+      height: 430px;
+      background-image: url("../images/bird.209.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: -185px;
+      right: -190px;
+      z-index: 1;
+      content: '';
+   }
+}
+.bird-title{
+   margin: 0;
+   font-weight: 700;
+   font-size: 70px;
+   line-height: 91%;
+   color: #333333;
+   margin-bottom: 29px;
+}
+.bird-spn{
+   color: #78C0DE;
+}
+.bird-box{
+   position: relative;
+   width: 100%;
+   max-width: 495px;
+
+   &::before{
+      position: absolute;
+      width: 830px;
+      height: 750px;
+      background-image: url("../images/dog.209.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: -310px;
+      left: -1000px;
+      content: '';
+   }
+}
+.bird-text{
+   margin: 0;
+   margin-bottom: 38px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 131%;
+   color: #949494;
+}
+.bird-link{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px; 
+   color: #FFFFFF;
+   background-color: #333333;
+   border-radius: 3px;
+   padding: 16px 30px;
+   &:hover{
+      background-color: #FFBD54;
+      color: #333333;
+   }
+
+   &:active{
+      opacity: 0.6;
+   }
+}
